@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <title>Dashboard</title>
+</head>
+<body>
+  <div class="page">
+    <div class="slidebar">
+      <h3 class="logo">Dashboard</h3>
+      <ul>
+        <li>
+          <a class="active" href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a  href="#">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-credit-card fa-fw"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="head">
+        <div class="search">
+          <input type="search" placeholder="Type A Keyword">
+        </div>
+        <div class="icons">
+          <i class="fa-regular fa-bell fa-lg"></i>
+          <img src="images/avatar.png" alt="">
+        </div>
+      </div>
+      <h1>Dashboard</h1>
+      <div class="wrapper">
+        <div class="welcome">
+          <div class="intro">
+            <div class="info">
+              <h2>Welcome</h2>
+              <p>Ahmed</p>
+            </div>
+            <div class="image">
+              <img src="images/welcome.png" alt="">
+            </div>
+          </div>
+          <img src="images/avatar.png" alt="" class="avatar">
+          <div class="profile-content">
+            <div>Ahmed Boghdady<span>Developer</span></div>
+            <div>80<span>Projects</span></div>
+            <div>10000$<span>Earned</span></div>
+          </div>
+          <a href="profile.html" class="visit">Profile</a>
+        </div>
+        <div class="draft">
+          <div class="intro-draft">
+            <h2>Quick Draft</h2>
+            <P>Write a Draft for your ideas</P>
+          </div>
+          <div class="form">
+            <form action="">
+              <input type="text"  placeholder="Title">
+              <textarea placeholder="Your Thought"></textarea>
+            </form>
+          </div>
+          <a href="#" class="save">Save</a>
+        </div>
+        <div class="target">
+          <div class="intro-target">
+            <h2>Yearly Target</h2>
+            <p>Targets of The Year</p>
+          </div>
+          <div class="targets">
+            <div class="icon">
+              <i class="fa-solid fa-dollar-sign fa-lg" style="color:var(--blue-color) ;"></i>
+            </div>
+            <div class="target-info">
+              <p>Money</p>
+              <span>$20.000</span>
+              <div class="progress-main">
+                <div class="progress"  style="width: 80%; height: 4px; background-color: var(--blue-color);" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="targets">
+            <div class="icon-2">
+              <i class="fa-solid fa-code fa-lg  " style="color:var(--orange-color);"></i>
+            </div>
+            <div class="target-info">
+              <p>Projects</p>
+              <span>24</span>
+              <div class="progress-main-2">
+                <div class="progress"  style="width: 55%; height: 4px; background-color: var(--orange-color);" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="targets">
+            <div class="icon-3">
+              <i class="fa-solid fa-dollar-sign fa-lg" style="color: var(--green-color);"></i>
+            </div>
+            <div class="target-info">
+              <p>Team</p>
+              <span>12</span>
+              <div class="progress-main-3">
+                <div class="progress"  style="width: 75%; height: 4px; background-color: var(--green-color);" ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tickets">
+          <div class="intro-tickets">
+            <h2>Tickets Statistics</h2>
+            <p>Everything About Support Tickets</p>
+          </div>
+          <div class="ticket-box">
+            <div class="box orange">
+              <i class="fa-regular fa-rectangle-list fa-2x mb-10"></i>
+              <h3>2500</h3>
+              <p>Total</p>
+            </div>
+            <div class="box blue">
+              <i class="fa-solid fa-spinner fa-2x mb-10"></i>
+              <h3>500</h3>
+              <p>Pending</p>
+            </div>
+            <div class="box green">
+              <i class="fa-regular fa-circle-check fa-2x mb-10"></i>
+              <h3>1900</h3>
+              <p>Closed</p>
+            </div>
+            <div class="box red">
+              <i class="fa-regular fa-rectangle-xmark fa-2x mb-10"></i>
+              <h3>100</h3>
+              <p>Deleted</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
